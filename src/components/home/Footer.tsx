@@ -99,8 +99,8 @@ export default function Footer() {
               <li>Class 6 – 8</li>
               <li>Class 9 – 10</li>
               <li>Class 11 – 12</li>
-              <li>NEET Preparation</li>
-              <li>IIT-JEE Foundation</li>
+              {/* <li>NEET Preparation</li>
+              <li>IIT-JEE Foundation</li> */}
             </ul>
           </div>
 
@@ -114,16 +114,16 @@ export default function Footer() {
               <div className="flex gap-3">
                 <MapPin className="mt-1 h-5 w-5 text-blue-400" />
                 <p>
-                  Main Road, Patna,
+                  Vindhya Public Junior High School, Nadihar, Rajgarh, Mirzapur
                   <br />
-                  Bihar, India
+                  Uttar Pradesh, India
                 </p>
               </div>
 
               <div className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-blue-400" />
                 <a href="tel:+919876543210" className="hover:text-white">
-                  +91 98765 43210
+                  +91 7393917189,7318079820
                 </a>
               </div>
 

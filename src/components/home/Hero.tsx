@@ -32,7 +32,7 @@ export default function HeroSection() {
             {/* Buttons */}
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Link
-                href="/admission"
+                href="/contact-us"
                 className="inline-flex items-center justify-center rounded-xl bg-[#28355E] px-7 py-4 font-semibold text-white transition hover:bg-[#17275d]"
               >
                 Enroll Now

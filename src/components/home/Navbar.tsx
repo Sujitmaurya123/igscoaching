@@ -54,7 +54,7 @@ export default function Navbar() {
         {/* Desktop Button */}
         <div className="hidden lg:block">
           <Link
-            href="/admission"
+            href="/contact-us"
             className="rounded-xl bg-[#28355E] px-5 py-2.5 font-semibold text-white transition hover:bg-[#28355E]"
           >
             Enroll Now

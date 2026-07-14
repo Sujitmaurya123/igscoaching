@@ -31,7 +31,7 @@ const programs: Program[] = [
     description:
       "Building strong academic foundations with personalized learning paths and conceptual clarity.",
     features: ["Core Subjects", "STEM Activities", "Language Arts", "Study Skills"],
-    ctaLink: "/programs/school-prep",
+    ctaLink: "/courses",
     ctaText: "View Curriculum",
     
   },
@@ -44,7 +44,8 @@ const programs: Program[] = [
     description:
       "Strategic preparation for board exams with focus on conceptual mastery and exam techniques.",
     features: ["Board Prep", "Practice Tests", "Doubt Clearing", "Time Management"],
-    ctaLink: "/programs/foundation",
+        ctaLink: "/courses",
+
     ctaText: "Start Foundation",
     popular: true,
   },
@@ -58,7 +59,8 @@ const programs: Program[] = [
     description:
       "Stream-specific coaching with career guidance and competitive exam readiness.",
     features: ["Stream Specialization", "Career Counseling", "Mock Tests", "University Prep"],
-    ctaLink: "/programs/senior-secondary",
+        ctaLink: "/courses",
+
     ctaText: "Explore Streams",
     popular: true,
   },
@@ -222,18 +224,7 @@ export default function OurPrograms() {
           ))}
         </motion.div>
 
-        {/* Bottom CTA Section - Real-world conversion */}
-        <div className="mt-16 text-center">
-          <p className="text-slate-500 text-sm">
-            Not sure which program fits you best?{" "}
-            <Link
-              href="/assessment"
-              className="text-blue-600 font-semibold hover:text-blue-700 underline-offset-2 hover:underline transition"
-            >
-              Take our free assessment →
-            </Link>
-          </p>
-        </div>
+        
       </div>
     </section>
   );

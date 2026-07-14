@@ -1,24 +1,26 @@
 "use client";
 
 import Link from "next/link";
-import { Menu, X, GraduationCap } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import Image from "next/image";
+import WhatsAppButton from "./WhatsappIcon";
 
 const navLinks = [
   { name: "Home", href: "/" },
   { name: "Courses", href: "/courses" },
-  { name: "Faculty", href: "/faculty" },
-  { name: "Results", href: "/results" },
+  // { name: "Faculty", href: "/faculty" },
   { name: "Gallery", href: "/gallery" },
-  { name: "About", href: "/about" },
-  { name: "Contact", href: "/contact" },
+  { name: "About", href: "/about-us" },
+  { name: "Contact", href: "/contact-us" },
 ];
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
+    <>
+  
     <header className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur-md border-b border-gray-200 shadow-sm">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
@@ -102,5 +104,7 @@ export default function Navbar() {
         </div>
       </div>
     </header>
+    <WhatsAppButton/>
+      </>
   );
 }

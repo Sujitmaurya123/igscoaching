@@ -20,7 +20,7 @@ export default function Footer() {
           <div>
                {/* Logo */}
         <Link href="/" className="flex items-center gap-3">
-  <div className="flex h-25 w-25 items-center justify-center overflow-hidden  ">
+  <div className="flex h-20 w-20 items-center justify-center bg-white shadow rounded-3xl overflow-hidden  ">
     <Image
 
       src="/images/logo.png"
@@ -130,10 +130,10 @@ export default function Footer() {
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-blue-400" />
                 <a
-                  href="mailto:info@brightfuture.com"
+                  href="mailto:info@insightglobalstudies.in"
                   className="hover:text-white"
                 >
-                  info@brightfuture.com
+                  info@insightglobalstudies.in
                 </a>
               </div>
 
@@ -168,7 +168,7 @@ export default function Footer() {
         <div className="mt-12 border-t border-slate-800 pt-6">
           <div className="flex flex-col items-center justify-between gap-4 text-sm text-gray-400 md:flex-row">
             <p>
-              © {new Date().getFullYear()} Bright Future Coaching Classes. All
+              © {new Date().getFullYear()} IGS Coaching Classes. All
               Rights Reserved.
             </p>
 

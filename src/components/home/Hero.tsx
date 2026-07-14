@@ -4,6 +4,8 @@ import { ArrowRight, BookOpen, Award, Users } from "lucide-react";
 
 export default function HeroSection() {
   return (
+    <>
+   
     <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-indigo-100">
       {/* Background Blur */}
       <div className="absolute left-0 top-0 h-72 w-72 rounded-full bg-blue-300/20 blur-3xl" />
@@ -135,5 +137,6 @@ export default function HeroSection() {
         </div>
       </div>
     </section>
+     </>
   );
 }
